@@ -1,0 +1,18 @@
+{
+ "_notice": "FICTIONAL PREVIEW DATA ONLY. No real customers, prices or legal commitments.",
+ "customer": {
+  "name": "Sample Student"
+ },
+ "orders": [
+  {
+   "id": "PREVIEW-0001",
+   "status": "example",
+   "items": [
+    {
+     "title": "Sample course",
+     "qty": 1
+    }
+   ]
+  }
+ ]
+}

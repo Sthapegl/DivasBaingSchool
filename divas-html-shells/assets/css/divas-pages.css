@@ -1,0 +1,11 @@
+/* divas-pages.css — page-specific styles only. Load after divas-design-system.css. */
+.dbs-page--index .dbs-index-grid{display:grid;gap:var(--dbs-space-6);grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr))}
+.dbs-page--index .dbs-index-list{list-style:none;margin:var(--dbs-space-3) 0 0;padding:0}.dbs-page--index .dbs-index-list li{border-top:1px solid var(--dbs-color-border)}.dbs-page--index .dbs-index-list a{display:block;padding:var(--dbs-space-2) 0;text-decoration:none;font-weight:600}
+.dbs-page--cart .dbs-cart-sample-note{margin-bottom:var(--dbs-space-4)}
+.dbs-page--cart .dbs-line-total{font-weight:700}
+.dbs-page--checkout .dbs-checkout-main .dbs-checkout-panel>h2{font-size:1.3rem;padding-bottom:var(--dbs-space-3);border-bottom:2px solid var(--dbs-color-gold);margin-bottom:var(--dbs-space-4)}
+.dbs-page--account-login .dbs-auth-panel{border-top:4px solid var(--dbs-color-gold)}
+.dbs-page--faq .dbs-faq-tools{display:flex;flex-wrap:wrap;gap:var(--dbs-space-2);margin:var(--dbs-space-3) 0}
+.dbs-page--about .dbs-values{display:grid;gap:var(--dbs-space-6);grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr))}
+.dbs-page--legal .dbs-legal-content section{scroll-margin-top:6rem}
+.dbs-preview-banner{background:#fff3cf;color:#6a4a00;font-size:.82rem;padding:.4rem 1rem;text-align:center}
